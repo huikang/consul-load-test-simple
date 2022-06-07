@@ -1,3 +1,7 @@
+variable "aws_region" {
+  description = "aws region"
+}
+
 variable "vpc_name" {
   description = "Name of the VPC"
 }
